@@ -1,0 +1,13 @@
+[project]
+name = "background-remover"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "llvmlite>=0.48.0",
+    "numba>=0.66.0",
+    "onnxruntime>=1.27.0",
+    "pillow>=12.3.0",
+    "rembg[cpu]>=2.0.76",
+]
